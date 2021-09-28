@@ -434,10 +434,10 @@ h1 {
 
 .about-section .about-item2 {
   width: 90%;
-  height: 48%;
+  height: 55%;
   background-color: white;
   position: absolute;
-  bottom: 0;
+  bottom: -10%;
   right: 0;
 }
 
@@ -616,6 +616,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .about-section .about-item2 {
     width: 50%;
+    height: 70%;
   }
   .contacth1 {
     margin-top: 0%;
