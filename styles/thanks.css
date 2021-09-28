@@ -1,0 +1,20 @@
+.global-container{
+position: absolute;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.main-sentence{
+    
+
+}
