@@ -1,0 +1,315 @@
+/******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+
+/*
+.font-sm {
+  font-size: 16px;
+}
+.font-md {
+  font-size: 19px;
+}
+.font-lr {
+  font-size: 23px;
+}
+.font-lg {
+  font-size: 36px;
+}
+.mb-lg {
+  margin-bottom: 150px !important;
+}
+.pb-lg {
+  padding-bottom: 150px !important;
+}
+
+.popular {
+  &__item {
+    flex-basis: 25%;
+  }
+
+  &__img {
+    height: 335px;
+  }
+}
+
+.travel {
+  &__img {
+    height: 400px;
+  }
+
+  &__description {
+    margin-bottom: 40px;
+  }
+  &__title {
+    &::before {
+      display: block;
+    }
+  }
+}
+
+.footer {
+  &__li {
+    justify-content: flex-start;
+  }
+}
+
+.header {
+  &__nav {
+    display: block;
+  }
+}
+
+.mobile-menu {
+    &__btn {
+        display: none;
+    }
+}
+
+.swiper-slide {
+  box-shadow: 0 8px 40px -10px rgba(0, 0, 0, 0.8);
+}
+*/
+
+.contact{
+  &__inner{
+    &__texts{
+      max-width: 200px;
+    }
+  }
+  
+}
+
+.font-sm {
+  font-size: 18px;
+}
+.font-md {
+  font-size: 20px;
+}
+.font-lar {
+  font-size: 25px;
+}
+.font-lg {
+  font-size: 36px;
+}
+
+.about-section{
+  margin-bottom: 40%;
+}
+
+
+
+
+
+
+
+/*
+.menu-open{
+  
+
+
+    }
+*/
+
+.mobile-menu__btn{
+  display: none;
+}
+.mobile-menu{
+  display: none;
+}
+.menu-open{
+  display: none;
+}
+
+.header-line{
+  display: none;
+}
+.pcmenu{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  .main-title{
+    font-size: 21px;
+    }
+  
+  .sub-title{
+    font-size: 9px;
+  }
+  
+
+  &__container{
+    width: 90%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item{
+      list-style: none;
+      text-decoration: none;
+      display: inline-block;
+      margin-left: auto;
+      & :hover{
+        color: $cGreen;
+      }
+      
+      & >a{
+        text-decoration: none;
+        color:$cWhite;
+      }
+  }
+  &__inner{
+    width: 55vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  
+  }
+}
+  
+
+/*
+
+.pcmenu{
+  display: block;
+  z-index: 100;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:0;
+  height: 80px;
+  width: 100vw;
+  margin: 0,auto;
+
+
+
+  & >.logo{
+    margin-top: 3%;
+    margin-left: 3%;
+    
+  
+    }
+
+  
+
+  &__item{
+      display: inline-block;
+      background-color: $cWhite;
+    
+     
+  
+      
+  }
+
+
+  
+
+  &__inner{
+      width: 65%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: $cWhite;
+      box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+      list-style: none;
+      color: $cBlack;
+      background-color: $cWhite;
+      width: 60vw;
+      height: 20vh;
+      padding: 0;
+      text-align: center;
+      padding: 25px;
+      margin: 0;
+      position: fixed;
+
+
+
+      &>li{
+          font-size: 15px;
+          margin: 4%;
+          color: $cBlack;
+          
+
+          &>a{
+              color: $cBlack;
+          }
+      }
+
+      
+  }
+
+
+
+}
+*/
+
+.news{
+  width: 40vw;
+  height: 20vh;
+
+}
+
+.works{
+  &__item{
+    height: 300px;
+    overflow: hidden;
+  }
+}
+
+.work1{
+  transition: 1s all;
+
+  &:hover{
+  transform: scale(1.1,1.1);
+  transition: 1s all;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.members{
+  &__img{
+    height: 280px;
+  }
+}
+
+
+
+.contact{
+  &h1{
+      margin-top: 0%;
+  }
+
+  &__inner{
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 5%;
+  }
+
+
+  
+  &__texts,
+  &__img{
+      flex-basis: 47%;
+      
+
+  }
+}

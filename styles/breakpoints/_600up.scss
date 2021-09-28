@@ -1,0 +1,162 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+/*
+.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.houses {
+    &__item {
+        flex-basis: 50%;
+        margin-bottom: 60px;
+    }
+}
+
+.popular {
+    &__container {
+        justify-content: space-between;
+    }
+
+    &__item {
+        flex-basis: 47%;
+    }
+}
+
+.travel {
+    &__inner {
+        padding: 50px;
+    }
+    &__texts,
+    &__img {
+        flex-basis: 47%;
+    }
+
+    &__texts {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+.footer {
+    & .logo {
+        justify-content: flex-start;
+    }
+
+    &__li {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+}
+*/
+
+.menu-open{
+    & .mobile-menu{
+        position:absolute;
+        top: 0%;
+        right: 0%;
+        background-color: $cGray;
+        opacity: 0.9;
+        width: 30vw;
+        height: 100vh;
+        z-index: 2;
+        padding-top:0% ;
+        }
+        .mobile-menu{
+            padding-top: 0%;
+        
+        }
+
+
+}
+
+.mobile-menu{
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    background-color: $cGray;
+    opacity: 0.9;
+    width: 30vw;
+    height: 100vh;
+    z-index: 2;
+    padding-top:0% ;
+    opacity: 0;
+    }
+
+
+
+
+
+
+
+.works{
+    text-align: center;
+    &__container{
+      display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    }
+  
+    &__item{
+        flex-basis: 47%;
+      
+      
+      & >img{
+  
+          margin-bottom: 5%;
+      
+  }
+      }
+    }
+
+
+
+.members{
+
+    &__container{
+        position: relative;
+        z-index: 2;
+    }
+
+    &__item{
+        flex-basis: 20%;
+        justify-content: space-between;
+      }
+      &__img{
+        height: 200px;
+        overflow: hidden;
+        margin-bottom: 10px;
+  
+        & > img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: top;
+        }
+    }
+
+    &__btn{
+        margin-bottom: 5%;
+    }
+
+  &__inner{
+      position: relative;
+     &::before {
+         content: '';
+         position: absolute;
+         bottom: 0;
+         left: 0;
+
+         width: 100%;
+         height: 90%;
+         background-color: $cGreen;
+     }
+  }
+
+  
+}
